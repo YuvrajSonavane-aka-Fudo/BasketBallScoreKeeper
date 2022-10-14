@@ -1,0 +1,63 @@
+#home{
+    margin-top: 10px;
+    margin-left : 8%;
+    float : left;
+    background :rgb(15, 15, 15);
+    width : 30%;
+    padding : 2.5%;
+    border : 2px dashed;
+    border-color: rgb(0, 239, 0);
+}
+
+body{
+    background : rgb(47, 43, 43);
+    background-size:auto;
+    background-repeat : none;
+}
+
+h2{
+    font-size: 390%;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : rgb(0, 239, 0);
+    text-align: center;
+}
+
+#welcome{
+    font-size: 200%;
+    color:rgb(0, 255, 34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding : 15px;
+    background: rgb(32, 29, 29);
+}
+
+.headings{
+   font-style: italic;
+   color : rgb(29, 247, 0);
+   font-weight: bold;
+   font-size: 300%;
+   text-align: center;
+  
+ 
+
+}
+
+#away{
+    margin-top: 10px;
+    margin-right : 10%;
+    float : right;
+    background-color : rgb(16, 16, 16);
+    width : 30%;
+    padding : 2.5%;
+    border : 2px dashed;
+    border-color: rgb(0, 239, 0);
+}
+
+button{
+    padding: 5%;
+    margin-left: 12%;
+    background-color: black;
+    color :rgb(29, 247, 0);
+    border : 1px dashed;
+    border-radius: 13px;
+}

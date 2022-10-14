@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Score.css">
+      
+    </head>
+    <body>
+        <div id = "welcome"> <h1 >Welcome to the game folks</h1></div>
+       
+        <div id = "home"> 
+            <h1 class = "headings">Home</h1><br>
+            <h2 id = "h1">0</h2>
+            <button onclick = "addOnePoint()">+1</button>
+            <button onclick = "addTwoPoints()">+2</button>
+            <button onclick = "addThreePoints()">+3</button>
+        </div>
+       
+
+      <div id = "away"> 
+        <h1 class = "headings">Away</h1><br>
+        <h2 id = "a1">0</h2>
+        
+        <button onclick = "addOnePointToAway()">+1</button>
+        <button onclick = "addTwoPointsToAway()">+2</button>
+        <button onclick = "addThreePointsToAway()">+3</button>
+    </div>
+    <script src ="Score.js"></script>
+    </body>
+</html>
